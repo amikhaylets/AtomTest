@@ -9,6 +9,11 @@ y = np.power(x, 2)
 
 plt.scatter(x, y)
 plt.grid(b='on')
+plt.ylim(ymin=0)
+plt.xlim(xmin=0)
+plt.title('Earnings versus time')
+plt.ylabel('Money earned')
+plt.xlabel('Time spent')
 plt.show()
 
 gp.qplot(x, y)
